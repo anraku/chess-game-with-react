@@ -5,9 +5,9 @@ interface GameState {
   gameOver: boolean
 }
 
-const Game: React.FC = () => {
+const Game2: React.FC = () => {
   const initialState: GameState = {
-    score: 0,
+    score: 99,
     gameOver: false
   }
   const [state, setState] = useState(initialState)
@@ -19,4 +19,4 @@ const Game: React.FC = () => {
   )
 }
 
-export default Game
+export default Game2

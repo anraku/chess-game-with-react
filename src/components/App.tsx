@@ -1,10 +1,10 @@
 import React from 'react';
-import Game from './Game'
+import RandomNumber from './RandomNumber'
 
 const App: React.FC = () => {
   return (
     <>
-      <Game />
+      <RandomNumber />
     </>
   );
 }
